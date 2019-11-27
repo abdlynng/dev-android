@@ -1,5 +1,5 @@
 # dev-android 2019
-formation develpement android 
+formation developpement android 
 outils
 Android Studio
 SDK android 8.1
