@@ -11,19 +11,19 @@
         android:id="@+id/textView"
         android:layout_width="119dp"
         android:layout_height="41dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:text="Hello Word"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="328dp"
         android:layout_height="53dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/alfa_slab_one"
         android:text="ABDLYNNG Project"
         android:textSize="30sp"
@@ -37,13 +37,37 @@
         android:id="@+id/button2"
         android:layout_width="143dp"
         android:layout_height="66dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="36dp"
         android:background="#09E411"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Click Me"
         android:textColor="#E1F140"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnfloat"
+        android:layout_width="88dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

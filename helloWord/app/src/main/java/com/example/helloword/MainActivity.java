@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,8 +23,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Toast.makeText(getApplicationContext(), "Le bouton est cliqué", Toast.LENGTH_SHORT).show();
                 Log.i("MainActivity","Merci d'avoir Cliquer");
-                Toast.makeText(getApplicationContext(), "Le bouton est cliqué", Toast.LENGTH_LONG).show();
+            }
+        });
+        FloatingActionButton btnfloat = findViewById(R.id.btnfloat);
+        btnfloat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"bouton flottant cliqué",Toast.LENGTH_SHORT).show();
             }
         });
     }
