@@ -8,37 +8,42 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/champ1"
-        android:layout_width="284dp"
-        android:layout_height="35dp"
-        android:text="Université Alioune Diop de Bambey"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/textView"
+        android:layout_width="119dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:text="Hello Word"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="127dp"
-        android:layout_height="28dp"
-        android:text="Bienvenue BAMBEY "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.11" />
+        android:layout_width="328dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="ABDLYNNG Project"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="193dp"
-        android:layout_height="20dp"
-        android:text="réalisée par Abdoulaye NIANG"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="72dp"
+        android:background="#09E411"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Click Me"
+        android:textColor="#E1F140"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
