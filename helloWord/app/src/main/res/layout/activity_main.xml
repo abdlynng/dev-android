@@ -12,7 +12,7 @@
         android:layout_width="119dp"
         android:layout_height="41dp"
         android:layout_marginTop="40dp"
-        android:text="Hello Word"
+        android:text="@string/textView"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,11 +21,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="328dp"
-        android:layout_height="53dp"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/alfa_slab_one"
-        android:text="ABDLYNNG Project"
+        android:text="@string/textView2"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -37,13 +37,13 @@
         android:id="@+id/button2"
         android:layout_width="143dp"
         android:layout_height="66dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="56dp"
         android:background="#09E411"
         android:fontFamily="@font/alfa_slab_one"
-        android:text="Click Me"
+        android:text="@string/button2"
         android:textColor="#E1F140"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -61,9 +61,10 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="140dp"
-        android:layout_height="127dp"
+        android:layout_width="112dp"
+        android:layout_height="105dp"
         android:layout_marginTop="76dp"
+        android:contentDescription="@string/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

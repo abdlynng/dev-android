@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HelloWord</string>
+    <string name="textView">HelloWord</string>
+    <string name="textView2">ABDLYNNG Project</string>
+    <string name="button2">Click Me</string>
+    <string name="imageButton2">image 1</string>
 </resources>
