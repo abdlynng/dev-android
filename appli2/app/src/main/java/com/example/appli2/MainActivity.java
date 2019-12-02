@@ -15,14 +15,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+       // appel
         Button appeler = (Button) findViewById(R.id.buttonCall);
-
         appeler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:00221"));
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:00221772755714"));
                 startActivity(intent);
+            }
+        });
+
+        //envoyer un sms
+        Button sms = (Button) findViewById(R.id.btnSms);
+        sms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentSms = new Intent(Intent.ACTION_SENDTO);
+                intentSms.setData(Uri.parse("smsto:" +Uri.encode("760277060")));
+                intentSms.putExtra("sms_body","hello");
+                startActivity(intentSms);
             }
         });
 
