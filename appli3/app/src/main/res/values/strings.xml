@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_help">HelpActivity</string>
     <string name="action_help">aide</string>
+    <string name="edit_message">enter a message</string>
+    <string name="button_send">SEND</string>
 </resources>
