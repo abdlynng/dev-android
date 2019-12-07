@@ -1,4 +1,4 @@
-#Fri Dec 06 09:20:09 GMT 2019
+#Sat Dec 07 10:22:29 GMT 2019
 base.0=/home/abdlynng/AndroidStudioProjects/dev-android/FragmentExample1/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

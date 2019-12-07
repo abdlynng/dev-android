@@ -60,4 +60,8 @@ public class SimpleFragment extends Fragment {
 
     }
 
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
+
 }
